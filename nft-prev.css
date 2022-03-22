@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca:wght@200;400&family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca:wght@200;400&family=Outfit:wght@100;300&display=swap');
+
+
+body {
+    min-height: 100vh;
+    display: grid;
+    background-color: hsl(216, 50%, 16%);
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 500px;
+    background-color: hsl(217, 54%, 11%);
+    display: grid;
+    grid-template-columns: 290px;
+    grid-template-rows: 500px;
+    padding-top: 20px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.card {
+    justify-self: center;
+    align-self: start;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+    height: 90%;
+    padding: 16px;
+    margin: 0;
+}
+
+.card img {
+    height: 260px;
+    width: 260px; 
+    border-radius: 5px;
+}
+
+.card img:hover {
+    cursor:pointer;
+    background-color: aqua;
+}
+.equi-text {
+    font-size: 19px;
+    font-family: 'Outfit';
+    font-weight: 800;
+    color: white;
+    text-align: start;
+}
+
+.equi-text:hover {
+    cursor: pointer;
+    color:aqua;
+}
+
+.equi-collect {
+    padding-top: -10px;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    font-family: 'Outfit';
+}
+.line {
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border: 0.5px solid hsl(215, 51%, 70%);
+    border-left: none;
+    border-right: none;
+    border-top: none;  
+}
+.eth {
+    float: left;
+    color: aqua;
+    font-family:'Outfit'
+}
+
+.eth>.eth-sign {
+    width: 10px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+}
+
+
+.days-left {
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit';
+    float: right;
+}
+.days-left>.clock {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+}
+
+
+.creator img {
+    height: 25px;
+    width: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.creation {
+    font-family: 'Outfit';
+    color: hsl(215, 51%, 70%);
+    float: right;
+    padding-top: 3px;
+    padding-right: 40px;
+    margin: 0;
+}
+
+.jules {
+    color: white;
+}
+
+.jules:hover {
+    color: aqua;
+    cursor: pointer;
+}
